@@ -1,4 +1,4 @@
-#!/usr/bin/php
+#!/usr/bin/php whatsapp.php -i 491714498869
 <?php
 require '../src/php/whatsprot.class.php';
 
