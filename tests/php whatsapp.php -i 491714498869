@@ -18,7 +18,7 @@ function fgets_u($pStdn)
 
 $nickname = "WhatsAPI Test";
 $sender = 	""; // 4917684597143
-$imei = 	""; // 358270051332481
+$imei = 	""; // 358270051332481/01
 $password =     ""; // Password you received from WhatsApp
 
 if ($argc < 2) {
