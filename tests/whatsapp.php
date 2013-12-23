@@ -1,4 +1,4 @@
-#!/usr/bin/php
+#!/usr/bin/php whatsapp.php -i 491714498869
 <?php
 require '../src/php/whatsprot.class.php';
 
@@ -19,9 +19,9 @@ function fgets_u($pStdn)
 $nickname = "WhatsAPI Test";
 
 // #### DO NOT ADD YOUR INFO AND THEN COMMIT THIS FILE! ####
-$sender = 	""; // Mobile number with country code (but without + or 00)
-$imei = 	""; // MAC Address for iOS IMEI for other platform (Android/etc)
-$password =     ""; // Password you received from WhatsApp
+$sender = 	""; // 4917684597143
+$imei = 	""; // 358270051332481/01
+$password =     ""; // Miriam11
 
 if ($argc < 2) {
     echo "USAGE: ".$_SERVER['argv'][0]." [-l] [-s <phone> <message>] [-i <phone>] [-set <status>]\n";
